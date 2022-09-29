@@ -1,0 +1,10 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(red,yellow);
+    animation: meuve 0.01ms linear infinite;
+}
+@keyframes meuve{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(180deg);}
+}

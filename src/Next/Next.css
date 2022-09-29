@@ -1,0 +1,24 @@
+.div{
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    background-color: blueviolet;
+}
+.cards{
+
+
+    max-width: 50%;
+    margin: auto;
+
+}
+.card{
+    height: 100px;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 150px;
+    box-shadow: 4px 2px 2px 2px rgba(5, 5, 68, 0.341);
+    margin: 20px;
+    max-height: 35vh;
+}

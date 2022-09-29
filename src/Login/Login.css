@@ -1,0 +1,106 @@
+.cover{
+    margin: 0%;
+    background:radial-gradient(purple,rgb(23, 6, 39));
+    height: 657.5px;
+    position: relative;
+}
+.field{
+    height: 470px;
+    width: 30%;
+    border: 1px solid rgb(255, 0, 234);
+    background-color:rgb(23, 6, 39) ;
+    margin-left: 35%;
+    position: absolute;
+    top: 15%;
+    border-radius: 20px;
+    box-shadow: -3px 7px 70px 3px black;
+}
+.log{
+    color:rgb(255, 113, 243) ;
+    text-align: center;
+}
+.wrap{
+    position: relative;
+    margin-top: 20%;
+    margin-left: 16%;
+}
+.input{
+    height: 50px;
+    width: 78.3%;
+    background-color: rgb(102, 86, 101);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.836);
+    outline: none;
+}
+.input::placeholder{
+    color: rgba(248, 248, 248, 0.575);
+}
+
+.label{
+    position:absolute;
+    left: 1.2%;
+    top: -15%;
+    color: rgba(255, 134, 245, 0.788);
+    z-index: 1;
+    
+}
+.input:hover{
+    border: 2px solid rgb(250, 172, 237);
+    transition: all 0.67s;
+}
+
+.inputr{
+    height: 50px;
+    width: 78.3%;
+    background-color: rgb(102, 86, 101);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.836);
+    margin-top: 10%;
+    outline: none;
+}
+.inputr::placeholder{
+    color: rgba(248, 248, 248, 0.575);
+}
+.labelr{
+    position:absolute;
+    left: 1.2%;
+    top: -40%;
+    color: rgba(255, 134, 245, 0.788);
+    margin-top: 36.8%;
+    
+}
+.inputr:hover{
+    border: 2px solid rgb(250, 172, 237);
+    transition: all 0.67s;
+}
+.reg{
+    bottom: -80%;
+    position: absolute;
+    width: 78.9%;
+    height: 50px;
+    background-color:rgb(187, 131, 187) ;
+    border-radius: 5px;
+    left: 1.4%;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+    line-height: 50px;
+}
+.reg:hover{
+    box-shadow: -3px 7px 50px 3px rgb(250, 166, 246);
+    transition: all 0.29s;
+}
+.error{
+    position: absolute;
+    color: rgb(255, 123, 123);
+    font-size: 70%;
+    top: -11.6%;
+    right: 19.4%;
+}
+.erro{
+    position: absolute;
+    color: rgb(255, 123, 123);
+    font-size: 70%;
+    top: 50.6%;
+    right: 19.4%;
+}

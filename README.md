@@ -66,3 +66,25 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+ useEffect(()=>{
+
+            rait.current.addEventListener('click', addnum)
+            function addnum(val){
+              
+               setVal( val + 1)
+              
+              
+            }
+
+            levt.current.addEventListener('click', subnum)
+            function subnum(val){
+              
+               setVal( val - 1)
+               
+               
+            }
+
+        }, [])
